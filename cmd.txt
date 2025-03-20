@@ -1,0 +1,5 @@
+--Re-Apply the YAML Files:kubectl delete pod my-html-pod
+
+kubectl delete service my-html-service
+kubectl apply -f my-html-pod.yaml
+kubectl apply -f my-html-service.yaml

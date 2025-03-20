@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-html-pod
+  labels:
+    app: my-html-app
+spec:
+  containers:
+  - name: demo-html-container
+    image: gulhaneatharva/demo-html-proj
+    ports:
+    - containerPort: 80
